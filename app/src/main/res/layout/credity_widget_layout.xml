@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#123C2A">
+
+    <!-- Top Left Column: Debt score Header & Status Label -->
+    <LinearLayout
+        android:id="@+id/widget_header_col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debt score"
+            android:textColor="#4ECA80"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Healthy"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Right Side Column: Score Number On Top of Penguin Mascot -->
+    <LinearLayout
+        android:id="@+id/widget_penguin_col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99"
+            android:textColor="#4ECA80"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_cat_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🐧"
+            android:textSize="48sp" />
+
+    </LinearLayout>
+
+    <!-- Bottom Left Column: Daily Limit Value & Daily Allowance Left text -->
+    <LinearLayout
+        android:id="@+id/widget_daily_col"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_allowance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RM 85"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widget_allowance_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:text="Daily Allowance\nLeft"
+            android:textColor="#E0E0E0"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

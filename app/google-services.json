@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "406914389443",
+    "project_id": "com-example-credity-9cb69",
+    "storage_bucket": "com-example-credity-9cb69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406914389443:android:fac658c066a0e415541976",
+        "android_client_info": {
+          "package_name": "com.example.credity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeY5Wj_clnrMtfJMwGtt-27eGPTXBZcWA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
